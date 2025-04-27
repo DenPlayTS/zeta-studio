@@ -35,6 +35,11 @@ header {
     padding: 20px;
 }
 
+.mainlink {
+    text-decoration: none;
+    color: white;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -166,4 +171,30 @@ button {
     border: 3px solid rgb(82, 82, 82);
     text-align: center;
     font-size: 16px;
+}
+
+.menu_small_icon {
+    display: none;
+}
+.menu-small {
+    display: none;
+    height: 2em;
+}
+.stick {
+    width: 80%;
+    height: 6px;
+    background: white;
+}
+
+@media(max-width: 980px) {
+    .box {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+@media(max-width: 800px) {
+    textarea {
+        width: 350px;
+        height: 225px;
+    }
 }
