@@ -18,8 +18,8 @@
             <ul>
                 <li><a href="index.html" class="nava">Главная</a></li>
                 <li><a href="about.html" class="nava">О команде</a></li>
-                <li><a href="" class="nava">Игры</a></li>
-                <li><a href="" class="nava">Контакты</a></li>
+                <li><a href="index.html#games" class="nava">Игры</a></li>
+                <li><a href="#footer" class="nava">Контакты</a></li>
             </ul>
         </nav>
         <div class="menu_small_icon">
@@ -33,8 +33,8 @@
             <div class="menu-small">
                 <div class="nava"><a href="index.html" class="nava">Главная</a></div>
                 <div class="nava"><a href="about.html" class="nava">О команде</a></div>
-                <div class="nava"><a href="" class="nava">Игры</a></div>
-                <div class="nava"><a href="" class="nava">Контакты</a></div>
+                <div class="nava"><a href="index.html#games" class="nava">Игры</a></div>
+                <div class="nava"><a href="#footer" class="nava">Контакты</a></div>
             </div>
             <div class="box">
                 <h3 class="boxname">ОБЩАЯ ИНФОРМАЦИЯ</h3>
@@ -59,7 +59,7 @@
                         Разработка проекта была очень непостоянной из-за многих факторов:
                         нехватка времени, творческий кризис, неудобство при работе с движком.
                     </p>
-                    <img src="images/rmr_history_img.png" alt="Skins" class="rmrimg-small" style="border-radius: 20px;">
+                    <img src="images/rmr_history_img.png" alt="Skins" class="rmrimg-small-alone">
                     <p class="boxtext">
                         Проект снова был заброшен на год, но вернулся с новыми силами на новом движке - PenguinMod.
                         На нем процесс разработки стал намного легче, и позволил изменить игру до неузнаваемости.<br>
@@ -77,8 +77,8 @@
                         Чем дальше - тем сложнее. В игре есть куда стремиться - 30 достижений различной сложности ждут вас!
                         Достижения не остаются без награды - за их выполнение вы можете получить шапки и даже скины!<br>
                     </p>
-                    <div class="row">
-                        <img src="images/rmr_gp_showcase.png" alt="Gameplay" class="rmrimg-small" style="margin-right:50px">
+                    <div class="row" style="justify-content: space-evenly;">
+                        <img src="images/rmr_gp_showcase.png" alt="Gameplay" class="rmrimg-small">
                         <img src="images/rmr_gp_showcase2.png" alt="Gameplay2" class="rmrimg-small">
                     </div>
                     <p class="boxtext">
@@ -86,7 +86,7 @@
                         а также вы можете попытать удачу, открыв сундук!
                         В игре есть все на ваш вкус: 31 скин, 38 шапок и 5 локаций, каждая из которых имеет уникальное музыкальное сопровождение!
                     </p>
-                    <img src="images/rmr_skins.png" alt="Skins" class="rmrimg-small">
+                    <img src="images/rmr_skins.png" alt="Skins" class="rmrimg-small-alone">
                 </div>
             </div>
             <div class="box" id="box-rmr-loooore">
@@ -97,17 +97,132 @@
                         Этот ключ можно использовать в некотором секретном месте в настройках, а дальше вы можете разобраться сами.
                         Сюжетная линия достаточно интересная, повествует об одном конкретном лице, а также раскрывает частичку лора игры.
                         <br>
-                        Мы крайне рекомендуем проходить сюжетную линию самим, но вы всегда можете прочитать про неё <a href="" class="boxtext">по этой ссылке</a>
+                        Мы крайне рекомендуем проходить сюжетную линию самим, но вы всегда можете прочитать про неё <a href="" class="textlink">по этой ссылке</a>
                     </p>
+                </div>
+            </div>
+            <div class="box" id="box-rmr-music">
+                <h3 class="boxname">МУЗЫКА</h3>
+                <div class="column" style="align-items: center;">
+                    <p class="boxtext">
+                        У Run Man Run есть уникальный саундтрек, написанный DenTS с 2023 по 2024 год.
+                        Вы можете послушать его на <a href="https://soundcloud.com/xa-ya-185366057/sets/run-man-run" class="textlink">SoundCloud</a> либо здесь:
+                    </p>
+
+                    <h4 class="boxsubtitle">Main Menu</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Самый первый трек, который вы слышите при заходе в игру." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Main Menu new ver.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">It's Beautiful Nature!</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Трек для самой культовой локации. Изначально здесь были только первые 50 секунд, но затем я решил продолжить,
+                        и получился этот трек. Для меня он больше всех ассоциируется с Run Man Run.
+                        Сразу вспоминаются хорошие деньки." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Its beautiful nature! Extended.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">City Always is Alive</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Самый старый, и самый беззаботный из всех." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/City always is alive.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Dangerous Forest!</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Трек для леса.
+                        Изначально он должен был быть куда медленней и страшней, но Run Man Run слишком быстрая игра, поэтому вышло это." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Dangerous Forest!.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Mysterious Cave</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Моя самая любимая локация - пещера. Этот трек был прорывом для моих тогдашних способностей в написании музыки." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/untitled34.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Sand Terrain и Sand Storm</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Целых 2 трека для одной локации - пустыни. Второй нагоняет жути для такого атмосферного события как буря." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/desert.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+                    <audio controls>
+                        <source src="audio/desert_sandstorm.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Just Basement</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Замедлен в игре. Презентует заглавную тему всей сюжетной линии." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Just Basement.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Battle Against a Prisoner</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Не очень подходит под игру, но выполнен неплохо, прям вайбы Undertale нагоняет." - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Battle Against A Prisoner new ver.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Win</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Слишком простой" - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/Win.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">A Crowded Place</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Интересно звучит" - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/secret.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
+
+                    <h4 class="boxsubtitle">Hideout</h4>
+                    <p class="boxtext" style="text-align: center;">
+                        "Атмосферно" - DenTS
+                    </p>
+                    <audio controls>
+                        <source src="audio/hideout.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудиоплеер.
+                    </audio>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="icons">
-            <a href="" class="iconsa"><img src="images/youtube_icon.png" alt="youtube" class="iconimg"></a>
-            <a href="" class="iconsa"><img src="images/discord_icon.png" alt="discord" class="iconimg"></a>
-            <a href="feedback.html" class="iconsa"><img src="images/feedback_icon.png" alt="feedback" class="iconimg"></a>
+        <div class="icons" id="footer">
+            <a href="https://www.youtube.com/@zeta-studios-l7d" class="iconsa" target="_blank" rel="noopener noreferrer"><img src="images/youtube_icon.png" alt="youtube" class="iconimg"></a>
+            <a href="" class="iconsa" target="_blank" rel="noopener noreferrer"><img src="images/discord_icon.png" alt="discord" class="iconimg"></a>
+            <!--<a href="feedback.html" class="iconsa"><img src="images/feedback_icon.png" alt="feedback" class="iconimg"></a>-->
         </div>
         <div class="logof">
             <img src="images/zeta_small_icon.png" alt="ZETA" class="logofimg">

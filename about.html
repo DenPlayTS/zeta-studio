@@ -18,8 +18,8 @@
             <ul>
                 <li><a href="index.html" class="nava">Главная</a></li>
                 <li><a href="about.html" class="nava">О команде</a></li>
-                <li><a href="" class="nava">Игры</a></li>
-                <li><a href="" class="nava">Контакты</a></li>
+                <li><a href="index.html#games" class="nava">Игры</a></li>
+                <li><a href="#footer" class="nava">Контакты</a></li>
             </ul>
         </nav>
         <div class="menu_small_icon">
@@ -31,20 +31,10 @@
     <main>
         <div class="container">
             <div class="menu-small">
-                <div class="nava">Главная</div>
-                <div class="nava">О команде</div>
-                <div class="nava">Игры</div>
-                <div class="nava">Контакты</div>
-            </div>
-            <div class="box">
-                <h3 class="boxname">О НАС</h3>
-                <div class="row-on-pc">
-                    <p class="boxtext">
-                        ZETA Studios - команда инди-разработчиков, основанная DenTS в 2023 году.
-                        На данный момент имеет основной состав в 4 человека, и 2 непостоянных участника.
-                    </p>
-                    <img src="images/zeta_big_icon.png" alt="ZETA" class="zetaimg">
-                </div>
+                <div class="nava"><a href="index.html" class="nava">Главная</a></div>
+                <div class="nava"><a href="about.html" class="nava">О команде</a></div>
+                <div class="nava"><a href="index.html#games" class="nava">Игры</a></div>
+                <div class="nava"><a href="#footer" class="nava">Контакты</a></div>
             </div>
             <div class="box">
                 <h3 class="boxname">СОСТАВ КОМАНДЫ</h3>
@@ -54,50 +44,64 @@
                     Simba - Креативный Лидер и Частично Художник<br>
                     Polad - Концепт-Артист и Генератор Идей<br>
                     PaSha - Генератор Идей<br>
-                    Murad - Генератор Идей и Подборщик Звуков
+                    Murad (непостоянный) - Генератор Идей и Подборщик Звуков
                 </p>
             </div>
             <div class="box">
                 <h3 class="boxname">О DenTS</h3>
-                <div class="row-on-pc">
-                    <img src="images/dents.png" alt="DenTS" class="zetaimg">
+                <div class="row-reverse-on-pc">
                     <p class="boxtext">
                         Привет! Я - DenTS. Я обожаю создавать какие-либо проекты, будь то игры или моды.
                         Знаю такие языки программирования, как Python, C#, Scratch/Penguinmod, HTML, CSS, JavaScript.
                         Являюсь основателем Zeta Studios и её главным разработчиком.
                         Мой самый любимый проект - Run Man Run.
                     </p>
+                    <img src="images/dents.png" alt="DenTS" class="zetaimg">
                 </div>
             </div>
             <div class="box">
                 <h3 class="boxname">О Simba</h3>
                 <div class="row-on-pc">
                     <p class="boxtext">
-                        Привет! Я - DenTS. Я обожаю создавать какие-либо проекты, будь то игры или моды.
-                        Знаю такие языки программирования, как Python, C#, Scratch/Penguinmod, HTML, CSS, JavaScript.
-                        Являюсь основателем Zeta Studios и её главным разработчиком.
-                        Мой самый любимый проект - Run Man Run.
+                        Привет всем я Simba, а если быть точнее то Симба это мой кот.
+                        Я являюсь вторым по важности участником студии, отвечаю в основном за идейное содержание,
+                        но и текстурки по желанию могу порисовать. Люблю химичить в флке, биты писать, а также
+                        работать над совместными проектами. Смаглин.
                     </p>
                     <img src="images/simba.png" alt="Simba" class="zetaimg">
                 </div>
             </div>
             <div class="box">
                 <h3 class="boxname">О PaSha</h3>
-                <div class="row-on-pc">
-                    <img src="images/dents.png" alt="DenTS" class="zetaimg">
+                <div class="row-reverse-on-pc">
                     <p class="boxtext">
                         Привет!! Я-PaSha. Я обожаю играть в карты. Являюсь концептором в  Zeta Studios.
                         Мой самый любимым проект в котором я участвовал - Run Man Run
                     </p>
+                    <img src="images/pasha.png" alt="PaSha" class="zetaimg">
                 </div>
             </div>
+            <!--
+            <div class="box">
+                <h3 class="boxname">О Polad1k</h3>
+                <div class="row-on-pc">
+                    <p class="boxtext">
+                        Всем доброго времени суток, меня звать Polad1k.
+                        Я являюсь главным концепт-артером в Zeta studios,
+                        также я участвовал в моделировании некоторых уровней и спрайтов в нашей игре Run Man Run.
+                        Всем спасибо за внимание.
+                    </p>
+                    <img src="images/simba.png" alt="Polad1k" class="zetaimg">
+                </div>
+            </div>
+            -->
         </div>
     </main>
     <footer>
-        <div class="icons">
-            <a href="" class="iconsa"><img src="images/youtube_icon.png" alt="youtube" class="iconimg"></a>
-            <a href="" class="iconsa"><img src="images/discord_icon.png" alt="discord" class="iconimg"></a>
-            <a href="feedback.html" class="iconsa"><img src="images/feedback_icon.png" alt="feedback" class="iconimg"></a>
+        <div class="icons" id="footer">
+            <a href="https://www.youtube.com/@zeta-studios-l7d" class="iconsa" target="_blank" rel="noopener noreferrer"><img src="images/youtube_icon.png" alt="youtube" class="iconimg"></a>
+            <a href="" class="iconsa" target="_blank" rel="noopener noreferrer"><img src="images/discord_icon.png" alt="discord" class="iconimg"></a>
+            <!--<a href="feedback.html" class="iconsa"><img src="images/feedback_icon.png" alt="feedback" class="iconimg"></a>-->
         </div>
         <div class="logof">
             <img src="images/zeta_small_icon.png" alt="ZETA" class="logofimg">

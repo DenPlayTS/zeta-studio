@@ -79,3 +79,5 @@ $('.container').on('touchend', function(event) {
         backward()
     }
 })
+
+
